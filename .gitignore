@@ -7,6 +7,7 @@
 *.dll
 *.so
 *.dylib
+validate_xml_by_xsd
 
 # Test binary, built with `go test -c`
 *.test

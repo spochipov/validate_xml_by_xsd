@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book id="bk101">
+    <title>The Go Programming Language</title>
+    <author>Alan A. A. Donovan, Brian W. Kernighan</author>
+    <year>2015</year>
+    <price>49.99</price>
+    <category>Programming</category>
+  </book>
+  <book id="bk102">
+    <title>Clean Code</title>
+    <author>Robert C. Martin</author>
+    <year>2008</year>
+    <price>39.99</price>
+    <category>Software Engineering</category>
+  </book>
+  <book id="bk103">
+    <title>Design Patterns</title>
+    <author>Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides</author>
+    <year>1994</year>
+    <price>45.99</price>
+    <category>Software Engineering</category>
+  </book>
+</bookstore>

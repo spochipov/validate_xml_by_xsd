@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <!-- Missing required 'id' attribute -->
+  <book>
+    <title>Missing ID Book</title>
+    <author>John Doe</author>
+    <year>2020</year>
+    <price>29.99</price>
+    <category>Fiction</category>
+  </book>
+  <!-- Wrong data type for year (should be integer) -->
+  <book id="bk201">
+    <title>Wrong Year Format</title>
+    <author>Jane Smith</author>
+    <year>Twenty Twenty-Two</year>
+    <price>19.99</price>
+    <category>Non-Fiction</category>
+  </book>
+  <!-- Missing required 'price' element -->
+  <book id="bk202">
+    <title>Missing Price</title>
+    <author>Bob Johnson</author>
+    <year>2019</year>
+    <category>Mystery</category>
+  </book>
+  <!-- Extra element not defined in schema -->
+  <book id="bk203">
+    <title>Extra Element</title>
+    <author>Alice Brown</author>
+    <year>2021</year>
+    <price>24.99</price>
+    <category>Science Fiction</category>
+    <publisher>Extra Publishing House</publisher>
+  </book>
+</bookstore>
